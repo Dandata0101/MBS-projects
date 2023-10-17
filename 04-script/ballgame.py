@@ -22,6 +22,14 @@ pygame.display.set_caption("Mosquito Game")
 current_directory = os.getcwd()
 mosquito_path = os.path.join(current_directory, "05-images", "ball.png")
 
+# Load the static image outside the loop
+static_ball_image = pygame.image.load(mosquito_path).convert_alpha()
+scaled_static_ball_image = pygame.transform.scale(static_ball_image, (60, 60))  # Assuming you want to scale it down
+static_ball_rect = scaled_static_ball_image.get_rect(topleft=(10, 10))
+
+# Create font for points display
+my_font = pygame.font.SysFont(None, 36)
+
 class Mosquito(Sprite):
     def __init__(self, width, height, window_width, window_height):
         super().__init__()
@@ -70,8 +78,12 @@ while running:
 
     screen.fill(WHITE)
     screen.blit(mosquito.image, mosquito.rect)
-    point_text = font.render(f"Points: {points}", True, (0, 0, 0))
-    screen.blit(point_text, (10, 10))
+    # Draw the static ball image
+    screen.blit(scaled_static_ball_image, static_ball_rect.topleft)
+
+    # Display the points next to the static ball image
+    points_display = my_font.render(f'Points: {points}', True, (0, 0, 0))
+    screen.blit(points_display, (static_ball_rect.right + 10, 10))
     pygame.display.flip()
 
 # Cleanup

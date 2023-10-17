@@ -26,3 +26,5 @@ contextlib
 scipy
 shap
 python-pptx
+qlite3-0611
+sqlmodel

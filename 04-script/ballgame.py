@@ -1,9 +1,11 @@
+
+#libaries used########################################################
 import os
 import sys
 import pygame
 import random
 from pygame.sprite import Sprite
-
+#######################################################################
 # Initialize Pygame
 pygame.init()
 
@@ -18,9 +20,11 @@ WHITE = (255, 255, 255)
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Mosquito Game")
 
+#######################################################################
 # Paths and directory
 current_directory = os.getcwd()
 mosquito_path = os.path.join(current_directory, "05-images", "ball.png")
+#######################################################################
 
 # Load the static image
 static_ball_image = pygame.image.load(mosquito_path).convert_alpha()
@@ -61,6 +65,8 @@ mosquito = Mosquito(50, 50, SCREEN_WIDTH, SCREEN_HEIGHT)
 points = 0
 
 
+#######################################################################
+#######################################################################
 mosquito_hit = False
 hit_text_timer = 0
 HIT_TEXT_DURATION = 1000  # 1 second in milliseconds
@@ -104,7 +110,8 @@ while running:
         screen.blit(hit_text_surface, (SCREEN_WIDTH // 2 - hit_text_surface.get_width() // 2, SCREEN_HEIGHT // 2 - hit_text_surface.get_height() // 2))
 
     pygame.display.flip()
-
+#######################################################################
+#######################################################################
 
 # Cleanup to prevent screen freeze
 del screen

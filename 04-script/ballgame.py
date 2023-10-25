@@ -19,24 +19,30 @@ WHITE = (255, 255, 255)
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Mosquito Game")
 
+################################################
 # Paths and directory
 current_directory = os.getcwd()
 mosquito_path = os.path.join(current_directory, "05-images", "ball.png")
 slap_sound_path = os.path.join(current_directory, "06-sound", "slap.wav")
 slap_sound = pygame.mixer.Sound(slap_sound_path)
+################################################
 
 # Load the static image
 static_ball_image = pygame.image.load(mosquito_path).convert_alpha()
 scaled_static_ball_image = pygame.transform.scale(static_ball_image, (60, 60))
 static_ball_rect = scaled_static_ball_image.get_rect(topleft=(10, 10))
+################################################
 
 # Create font for points and paused display
 main_font = pygame.font.SysFont(None, 36)
 small_font = pygame.font.SysFont(None, 18)  # Half size font for static messages
+################################################
 
 # Create surfaces for the static text
 pause_text_surface = small_font.render("Esc to pause", True, (0, 0, 0))
 quit_text_surface = small_font.render("q to quit game", True, (0, 0, 0))
+
+################################################
 
 # Mosquito class
 class Mosquito(Sprite):
@@ -60,12 +66,14 @@ class Mosquito(Sprite):
         self.rect.y += random.choice([-1, 0, 1]) * 10
         self.rect.x = max(0, min(self.window_width - self.width, self.rect.x))
         self.rect.y = max(0, min(self.window_height - self.height, self.rect.y))
+################################################
 
 # Helper function to get random position
 def get_random_position(window_width, window_height, image_width, image_height):
     random_x = random.randint(0, window_width - image_width)
     random_y = random.randint(0, window_height - image_height)
     return random_x, random_y
+################################################
 
 mosquito = Mosquito(50, 50, SCREEN_WIDTH, SCREEN_HEIGHT)
 points = 0

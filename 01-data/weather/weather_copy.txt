@@ -1,0 +1,5 @@
+city,temp
+Nice,23.3
+Grenoble,22.8
+Aix-en-Provence,25.0
+Marseille,24.2

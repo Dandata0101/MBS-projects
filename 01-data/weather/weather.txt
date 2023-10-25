@@ -1,0 +1,5 @@
+Nimes, 28.5
+Nice, 23.3
+Grenoble, 22.8
+Aix-en-Provence, 25
+Marseille, 24.2

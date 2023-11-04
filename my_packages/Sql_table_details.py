@@ -25,12 +25,12 @@ def display_table_details(file_path):
         print(columns_df)
         print()  # For separating table details
 
-def read_table_from_db(file_path, table_name):
+def sample_table(file_path, table_name, limit):
     conn = sqlite3.connect(file_path)
-    query = f"SELECT * FROM {table_name} limit 10"
-    df = pd.read_sql_query(query, conn)
+    query = f"SELECT * FROM {table_name} LIMIT {str(limit)}"  # Convert limit to a string
+    sample = pd.read_sql_query(query, conn)
     conn.close()
-    return df
+    return sample
 
 def run_query_from_db(file_path, query):
     conn = sqlite3.connect(file_path)

@@ -1,5 +1,6 @@
 # Python and Data Management Projects
-[![Author - DanRamirez](https://img.shields.io/badge/Author-DanRamirez-2ea44f?style=for-the-badge)]![Python - Version][PYTHON-url]
+![Author - DanRamirez](https://img.shields.io/badge/Author-DanRamirez-2ea44f?style=for-the-badge)
+![Python - Version][PYTHON-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 ## Data management Project

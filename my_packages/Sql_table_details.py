@@ -54,4 +54,15 @@ def run_query_from_db(file_path, query):
     conn = sqlite3.connect(file_path)
     dfquery = pd.read_sql_query(query, conn)
     conn.close()
-    return dfquery
+
+    # Convert the column names (Index object) to a list of strings
+    columns = list(dfquery.columns)
+
+    # Create a PrettyTable and add the column names
+    table = PrettyTable(columns)
+
+    # Add data to the PrettyTable
+    for row in dfquery.itertuples(index=False):
+        table.add_row(row)
+
+    return table

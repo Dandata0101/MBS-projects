@@ -1,4 +1,5 @@
 # Python and Data Management Projects
+[![Generic badge](https://img.shields.io/badge/<AuthorT>-<Dan Ramirez>-<COLOR>.svg)](https://shields.io/)
 ![Python - Version][PYTHON-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 

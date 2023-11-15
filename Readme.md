@@ -4,6 +4,9 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 ## Data management Project
+These questions were asnwered by using python package `Sqllite3`.
+Export to excels will be all be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "FIFA Jupyter Notebook").
+
 1.  [FIFA Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Q01_fifa.ipynb "FIFA Jupyter Notebook").
 2.  [Wine Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Q02_wine.ipynb "wine Jupyter Notebook").
 

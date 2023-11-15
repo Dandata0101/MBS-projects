@@ -5,7 +5,7 @@
 
 ## Data management Project
 1.  [FIFA Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Q01_fifa.ipynb "FIFA Jupyter Notebook").
-2.  [Wine Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Q02_wine.ipynb "wine Jupyter Notebook").
+2.  [Wine Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Q02_wine.ipynb "wine Jupyter Notebook").
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

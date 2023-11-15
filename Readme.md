@@ -10,6 +10,8 @@ Export to excels will be all be delivered the [02-output directory](https://gith
 1.  [FIFA Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Q01_fifa.ipynb "FIFA Jupyter Notebook").
 2.  [Wine Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Q02_wine.ipynb "wine Jupyter Notebook").
 
+## Python Project
+<Coming soon>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

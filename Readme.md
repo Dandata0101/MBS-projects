@@ -13,7 +13,7 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 ## Python Project
 Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
 1.  [Password  Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q01_Password.ipynb "Password Jupyter Notebook").
-2.  [Wine  Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q02_wine.ipynb "Wine Jupyter Notebook").
+2.  [Wine  Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q02_wine.ipynb "Wine Jupyter Notebook").
 
 
 **Work in Progress**

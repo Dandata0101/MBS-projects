@@ -49,8 +49,7 @@ def sample_table(file_path, table_name, limit):
 
     return table
 
-
-def run_query_from_db(file_path, query):
+def run_query_from_db(file_path, query, print_table=True):
     conn = sqlite3.connect(file_path)
     dfquery = pd.read_sql_query(query, conn)
     conn.close()
@@ -65,4 +64,8 @@ def run_query_from_db(file_path, query):
     for row in dfquery.itertuples(index=False):
         table.add_row(row)
 
-    return table
+    # Print the table if print_table is True
+    if print_table:
+        print(table)
+
+    return dfquery

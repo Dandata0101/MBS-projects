@@ -4,14 +4,15 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 ## Data management Project
-These questions were asnwered by using python package `Sqllite3`.
-Export to excels will be all be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "FIFA Jupyter Notebook").
+These questions were asnwered by using python package `Sqllite3`. Also, some custom `packages` created to reduce the number of lines printed Jupyter notebooks [my packages](https://github.com/Dandata0101/MBS-projects/tree/main/my_packages "packages") .
+Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
 
 1.  [FIFA Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Q01_fifa.ipynb "FIFA Jupyter Notebook").
 2.  [Wine Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Q02_wine.ipynb "wine Jupyter Notebook").
 
 ## Python Project
-Export to excels will be all be delivered the 02-output directory
+Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
+
 **Coming soon**
 
 <!-- MARKDOWN LINKS & IMAGES -->

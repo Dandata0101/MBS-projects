@@ -9,7 +9,7 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 
 1.  [FIFA Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Data_Mgmt_Q01_fifa.ipynb "FIFA Jupyter Notebook").
 2.  [Wine Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Data_Mgmnt_Q02_wine.ipynb "wine Jupyter Notebook").
-* Export to excels will be delivered the [02-output directory/rater_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/rater_stats "directory raters").
+* Q2C Export to excels will be delivered the [02-output directory/rater_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/rater_stats "directory raters").
 ## Python Project
 Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
 1.  [Password  Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q01_Password.ipynb "Password Jupyter Notebook").

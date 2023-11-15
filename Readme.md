@@ -14,9 +14,11 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
 1.  [Password  Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q01_Password.ipynb "Password Jupyter Notebook").
 2.  [Wine  Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q02_wine.ipynb "Wine Jupyter Notebook").
+* Q2B Export to excels will be delivered the [02-output directory/Wine Tables](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/wine_tables "directory wine tables").
+* Q2C Export to excels will be delivered the [02-output directory/winery](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/winery_stats "directory winery").
+* Q2D Export to excels will be delivered the [02-output directory/burgundy_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/burgundy_stats "directory winery").
+* Q2E Export to excels will be delivered the [02-output directory/country_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/wine_country_stats "directory country").
 
-
-**Work in Progress**
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

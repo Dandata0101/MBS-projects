@@ -3,7 +3,7 @@
 ![Python - Version][PYTHON-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-All data used for these projects are in the directories
+All data used for these projects are in the directories:
 * [01-data/Wine data](https://github.com/Dandata0101/MBS-projects/tree/main/01-data/01_Wine_Project "Wine data").
 *  [01-data/FIFA ata](https://github.com/Dandata0101/MBS-projects/tree/main/01-data/02_fifa_Project "fifa data").
 
@@ -14,6 +14,7 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 1.  [FIFA Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Data_Mgmt_Q01_fifa.ipynb "FIFA Jupyter Notebook").
 2.  [Wine Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Data_Mgmt_Q02_wine.ipynb "wine Jupyter Notebook").
 * Q2C Export to excels will be delivered the [02-output directory/rater_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/rater_stats "directory raters").
+
 ## Python Project
 Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
 1.  [Password  Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q01_Password.ipynb "Password Jupyter Notebook").
@@ -23,13 +24,11 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 * Q2D Export to excels will be delivered the [02-output directory/burgundy_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/burgundy_stats "directory winery").
 * Q2E Export to excels will be delivered the [02-output directory/country_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/wine_country_stats "directory country").
 
+## Other Python Projects (Ball Game)
+**Documentation Work in Progress** 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/danramirezjr
 [PYTHON-url]: https://img.shields.io/badge/PYTHON-3.11-red?style=for-the-badge&logo=python&logoColor=white
-
-## Other Python Projects (Ball Game)
-
-**Documentation Work in Progress** 

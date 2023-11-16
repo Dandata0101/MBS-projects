@@ -26,7 +26,7 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 
 ## Other Python Projects (Ball Game)
 Ball Game
-![MarineGEO circle logo](/assets/img/MarineGEO_logo.png "MarineGEO logo")
+![Ball game](https://github.com/Dandata0101/MBS-projects/blob/main/05-images/ballgame_play.png "Ball game screen")
 
 **Documentation Work in Progress** 
 

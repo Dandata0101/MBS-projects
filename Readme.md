@@ -3,6 +3,10 @@
 ![Python - Version][PYTHON-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+All data used for these projects are in the directories
+* [01-data/01_Wine_Project](https://github.com/Dandata0101/MBS-projects/tree/main/01-data/01_Wine_Project "Wine data").
+*  [01-data/02_fifa_Project](https://github.com/Dandata0101/MBS-projects/tree/main/01-data/02_fifa_Project "fifa data").
+
 ## Data management Project
 These questions were asnwered by using python package `Sqllite3`. Also, some custom `packages` created to reduce the number of lines printed Jupyter notebooks [my packages](https://github.com/Dandata0101/MBS-projects/tree/main/my_packages "packages") .
 Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
@@ -26,3 +30,6 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 [linkedin-url]: https://linkedin.com/in/danramirezjr
 [PYTHON-url]: https://img.shields.io/badge/PYTHON-3.11-red?style=for-the-badge&logo=python&logoColor=white
 
+## other Python Projects (Ball Game)
+
+** Documentation Work in Progress ** 

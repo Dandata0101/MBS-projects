@@ -5,9 +5,9 @@
 
 All data used for these projects are in the directories:
 * [01-data/Wine data](https://github.com/Dandata0101/MBS-projects/tree/main/01-data/01_Wine_Project "Wine data").
-*  [01-data/FIFA ata](https://github.com/Dandata0101/MBS-projects/tree/main/01-data/02_fifa_Project "fifa data").
+*  [01-data/FIFA data](https://github.com/Dandata0101/MBS-projects/tree/main/01-data/02_fifa_Project "fifa data").
 
-## Data management Project
+## Data Management Project
 These questions were asnwered by using python package `Sqllite3`. Also, some custom `packages` created to reduce the number of lines printed Jupyter notebooks [my packages](https://github.com/Dandata0101/MBS-projects/tree/main/my_packages "packages") .
 Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
 

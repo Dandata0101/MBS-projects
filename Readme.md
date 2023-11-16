@@ -25,6 +25,9 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 * Q2E Export to excels will be delivered the [02-output directory/country_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/wine_country_stats "directory country").
 
 ## Other Python Projects (Ball Game)
+Ball Game
+![MarineGEO circle logo](/assets/img/MarineGEO_logo.png "MarineGEO logo")
+
 **Documentation Work in Progress** 
 
 <!-- MARKDOWN LINKS & IMAGES -->

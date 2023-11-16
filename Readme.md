@@ -30,6 +30,6 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 [linkedin-url]: https://linkedin.com/in/danramirezjr
 [PYTHON-url]: https://img.shields.io/badge/PYTHON-3.11-red?style=for-the-badge&logo=python&logoColor=white
 
-## other Python Projects (Ball Game)
+## Other Python Projects (Ball Game)
 
-** Documentation Work in Progress ** 
+**Documentation Work in Progress** 

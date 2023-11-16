@@ -26,9 +26,11 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 
 ## Other Python Projects (Ball Game)
 Ball Game
+**Documentation Work in Progress** 
+
 ![Ball game](https://github.com/Dandata0101/MBS-projects/blob/main/05-images/ballgame_play.png "Ball game screen")
 
-**Documentation Work in Progress** 
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

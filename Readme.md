@@ -27,7 +27,7 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 ## Other Python Projects (Ball Game)
 Ball Game
 **Documentation Work in Progress** 
-*  [Link to Ball game](https://github.com/Dandata0101/MBS-projects/blob/main/x-Python_PYBallgame.ipynb "Ball game").
+*  [Ball game directory](https://github.com/Dandata0101/MBS-projects/tree/main/04-script/ballgame.py"Ball game").
 
 ![Ball game](https://github.com/Dandata0101/MBS-projects/blob/main/05-images/ballgame_play.png "Ball game screen")
 

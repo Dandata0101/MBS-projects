@@ -11,12 +11,14 @@ All data used for these projects are in the directories:
 These questions were asnwered by using python package `Sqllite3`. Also, some custom `packages` created to reduce the number of lines printed Jupyter notebooks [my packages](https://github.com/Dandata0101/MBS-projects/tree/main/my_packages "packages") .
 Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
 
+### Questions and Answers
 1.  [FIFA Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Data_Mgmt_Q01_fifa.ipynb "FIFA Jupyter Notebook").
 2.  [Wine Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Data_Mgmt_Q02_wine.ipynb "wine Jupyter Notebook").
 * Q2C Export to excels will be delivered the [02-output directory/rater_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/rater_stats "directory raters").
 
 ## Python Project
-Export to excels will be delivered the [02-output directory](https://github.com/Dandata0101/MBS-projects/tree/main/02-output "directory").
+
+### Questions and Answers
 1.  [Password  Jupyter Notebook Q1](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q01_Password.ipynb "Password Jupyter Notebook").
 2.  [Wine  Jupyter Notebook Q2](https://github.com/Dandata0101/MBS-projects/blob/main/Python_Q02_wine.ipynb "Wine Jupyter Notebook").
 * Q2B Export to excels will be delivered the [02-output directory/Wine Tables](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/wine_tables "directory wine tables").
@@ -27,7 +29,7 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 ## Other Python Projects (Ball Game)
 Ball Game
 **Documentation Work in Progress** 
-*  [Ball game directory](https://github.com/Dandata0101/MBS-projects/tree/main/04-script/ballgame.py"Ball game").
+*  [Ball game directory](https://github.com/Dandata0101/MBS-projects/tree/main/04-script/ballgame.py "Ball game").
 
 ![Ball game](https://github.com/Dandata0101/MBS-projects/blob/main/05-images/ballgame_play.png "Ball game screen")
 

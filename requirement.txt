@@ -31,3 +31,4 @@ sqlmodel
 pygame
 pymongo
 prettytable
+yfinance

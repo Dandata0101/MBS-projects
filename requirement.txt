@@ -32,3 +32,5 @@ pygame
 pymongo
 prettytable
 yfinance
+dbt-core
+dbt-bigquery

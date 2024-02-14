@@ -1,0 +1,92 @@
+[0m14:01:53.043501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072c4890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072e5d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072e6850>]}
+
+
+============================== 14:01:53.045944 | a5034f26-7585-4a4f-ae43-563d83e65c5d ==============================
+[0m14:01:53.045944 [info ] [MainThread]: Running with dbt=1.7.7
+[0m14:01:53.046260 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/danramirez/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:01:53.046550 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/danramirez/.dbt')}
+[0m14:01:53.046728 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:01:58.679440 [error] [MainThread]: Encountered an error:
+
+[0m14:01:58.689369 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/task/init.py", line 322, in run
+    project_name = self.get_valid_project_name()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/task/init.py", line 276, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m14:01:58.693698 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 5.663051, "process_user_time": 0.736208, "process_kernel_time": 0.107687, "process_mem_max_rss": "102825984", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:01:58.694498 [debug] [MainThread]: Command `dbt init` failed at 14:01:58.694362 after 5.66 seconds
+[0m14:01:58.694864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cc6890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b535d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b50fd0>]}
+[0m14:01:58.695193 [debug] [MainThread]: Flushing usage events
+[0m14:21:59.250091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097a7dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097a7d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109141a90>]}
+
+
+============================== 14:21:59.252697 | 8319533f-c38c-4f66-b225-ef96d0779d49 ==============================
+[0m14:21:59.252697 [info ] [MainThread]: Running with dbt=1.7.7
+[0m14:21:59.253006 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/danramirez/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init dbt_core_demo', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:21:59.253481 [debug] [MainThread]: Starter project path: /Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:21:59.256735 [info ] [MainThread]: 
+Your new dbt project "dbt_core_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:21:59.256922 [info ] [MainThread]: Setting up your profile.
+[0m14:22:10.310993 [error] [MainThread]: Encountered an error:
+
+[0m14:22:10.316168 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/task/init.py", line 344, in run
+    self.setup_profile(profile_name)
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/task/init.py", line 263, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/dbt/task/init.py", line 244, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/danramirez/MBS/.venv/lib/python3.11/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m14:22:10.321101 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 11.08412, "process_user_time": 0.745301, "process_kernel_time": 0.105737, "process_mem_max_rss": "103022592", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:22:10.322489 [debug] [MainThread]: Command `dbt init` failed at 14:22:10.322161 after 11.09 seconds
+[0m14:22:10.323500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105043490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105040d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097a4cd0>]}
+[0m14:22:10.324080 [debug] [MainThread]: Flushing usage events

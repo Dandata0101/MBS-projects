@@ -34,3 +34,4 @@ prettytable
 yfinance
 dbt-core
 dbt-bigquery
+snowflake-snowpark-python

@@ -26,6 +26,11 @@ Export to excels will be delivered the [02-output directory](https://github.com/
 * Q2D Export to excels will be delivered the [02-output directory/burgundy_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/burgundy_stats "directory winery").
 * Q2E Export to excels will be delivered the [02-output directory/country_stats](https://github.com/Dandata0101/MBS-projects/tree/main/02-output/wine_country_stats "directory country").
 
+
+## Jupyter Class workbooks 2023~2024
+1.  [2023 codebooks](https://github.com/Dandata0101/MBS-projects-class-codebook/blob/main/x-workspace_class_1stSemester.ipynb "2023").
+2.  [2024 codebooks](https://github.com/Dandata0101/MBS-projects-class-codebook/blob/main/x-workspace_class_2ndSemester.ipynb "2024").
+
 ## Other Python Projects (Ball Game)
 Ball Game
 **Documentation Work in Progress** 
